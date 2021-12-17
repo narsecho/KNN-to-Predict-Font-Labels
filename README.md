@@ -12,4 +12,11 @@ Data Preparation:
 3. only use cases with {strength = 0.4 and italic=0}
 3. The rows (cases) will be discarded if missing numerical data.
 
+Part1: EDA
+1.1 COpute 4 means of each column within the 4 classes, use Kolmogorov-Smirnov KS-test to quantify if there are significant difference.
+1.2 Compute correlation matrix CORR of the 400 orignial features X1, ..., X400. Identify and display the 10 highest correlation values and the pixel positions. 
+1.3 Standardize the features matrix DATA by centering/rescaling each feature Xj to create a new feature
+Yj= (Xj - mj) /sj;
+1.4 Generate the "TrueClass" column vector TRUC of dimension N, such that TRUC(n) is the true class of Case # n
 
+Part2: 
