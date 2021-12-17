@@ -4,6 +4,8 @@ Each "case" describes a digitized image of a specific character (letter or digit
 "FONT"; Each image has size 20 x20 =400 pixels; Each one of these 400 pixels has a "gray level" = integer between 0 and 255
 Here in the practice:
 
+To use google colab run this code, better to create a same path in your google drive, and upload the data files.
+
 Data Preparation:
 1. Select 4 fonts as four classes. "bondoni","eras","gabriola","technic" were selected.
 2. Drop 9 columns {fontVariant, m_label, orientation, m_top, m_left, originalH, originalW, h, w};Only use 3 columns {font, strength, italic}
